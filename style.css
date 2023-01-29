@@ -22,6 +22,7 @@ a {
   align-items: center;
   background: url("background.jpg");
   background-size: cover;
+  color: white;
   display: flex;
   height: 208px;
   justify-content:space-between;
