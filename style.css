@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3,h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+a {
+  color: white;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.header {
+  align-items: center;
+  background: url("background.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  height: 208px;
+  justify-content:space-between;
+  position: relative;
+  width: 100%;
+}
+
+.second {
+  background: white;
+  border: 1px solid #D1D5DB;
+  display: flex;
+  position: absolute;
+  bottom:-12px;
+  justify-content:center;
+  margin: 0 32vw;
+}
+
+.searchbar {
+  background: none;
+  border: none;
+  padding: 5px;
+  width: 25vw;
+}
+
+.searchicon {
+  color: #6B7280;
+  padding: 5px;
+}
+
+.searchbutton {
+  background: #F9FAFB;
+  border: none;
+  border-left: 1px solid #D1D5DB;
+  color: #374151;
+  height: 26px;
+  padding: 0 25px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 10vw;
+  padding-top: 40px;
+}
+
+.first-message {
+  color: #DFDDDD;
+}
+
+.second input button {
+  align-self: flex-end;
+}
+
+button {
+  cursor: pointer;
+}
+
+h3, h5, i {
+  display: inline;
+}
+
+.film {
+  color: #DFDDDD;
+  font-size: 60px;
+}
+
+.poster {
+  height: 150px;
+  width: 100px;
+}
+
+.watchlist-btn {
+  background: none;
+  border: none;
+}
+
+.but {
+  margin-top: 5px;
+}
+
+.movie {
+  border-bottom: 1.5px solid #E5E7EB;
+  display: flex;
+  gap: 10px;
+}
+
+.rest {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.first-row {
+  display: flex;
+  gap: 10px;
+}
+
+.poster {
+  height: 150px;
+  width: 100px;
+}
+
+.watchlist-btn {
+  background: none;
+  border: none;
+}
+
+/*
+
+.movie {
+  border-bottom: 1.5px solid #E5E7EB;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: [first] 25% [second] 75%;
+  grid-template-rows: [row1-start] 3% [row1-end] 17% [third-line] 20% [forth-line] 30% [last-line];
+  height:170px;
+}
+
+.first-row {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.second-row {
+  align-items: start;
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.third-row {
+  align-items: start;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+*/
+
+
+
+
+
+
+.star {
+  color: #FEC654;
+}
+
+p {
+  color: #6B7280;
+  font-size: 14px;
+  max-width: 300px;
+}
