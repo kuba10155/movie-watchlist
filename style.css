@@ -132,40 +132,6 @@ h3, h5, i {
   border: none;
 }
 
-/*
-
-.movie {
-  border-bottom: 1.5px solid #E5E7EB;
-  display: grid;
-  grid-column-gap: 10px;
-  grid-template-columns: [first] 25% [second] 75%;
-  grid-template-rows: [row1-start] 3% [row1-end] 17% [third-line] 20% [forth-line] 30% [last-line];
-  height:170px;
-}
-
-.first-row {
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
-.second-row {
-  align-items: start;
-  grid-column-start: 2;
-  grid-row-start: 3;
-}
-
-.third-row {
-  align-items: start;
-  grid-column-start: 2;
-  grid-row-start: 4;
-}
-*/
-
-
-
-
-
-
 .star {
   color: #FEC654;
 }
