@@ -46,26 +46,3 @@ function render(data) {
     </div>
     `
 }
-
-// tylko mnie kochaj
-/*
-<div class="movie">
-  <img class="poster" src="${data.Poster}"></img>
-  <div class="first-row">
-    <h3>${data.Title}</h3>
-    <h5><i class="star fa-solid fa-star"></i>${data.Ratings} </h5>
-  </div>
-  <div class="second-row">
-    <h5>${data.Runtime}</h5>
-    <h5>${data.Genre}</h5>
-    <button class="watchlist-btn"><i class="fa-solid fa-circle-plus"></i> Watchlist</button>
-  </div>
-  <div class="third-row">
-    <p>${data.Plot}</p>
-  </div>
-</div>
-
-
-
-
-*/
