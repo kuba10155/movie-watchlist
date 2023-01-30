@@ -2,7 +2,6 @@ const main = document.getElementById("main2")
 const search = document.getElementById("search")
 const data = JSON.parse(localStorage.getItem("myMovies"))
 
-
 function check() {
 
   if(data.length != 0) {
@@ -60,14 +59,3 @@ function render(data) {
 }
 
 check()
-/*
-
-document.getElementById(`${data.imbdID}`).addEventListener("click", function() {
-  localStorage.removeItem("myMovies")
-  main.innerHTML = `
-  <p class="first-message">Your watchlist is looking a little empty...</p>
-  <a class="but watchlist-btn" href="index.html"><i class="fa-solid fa-circle-plus"></i> Let's add some movies!</a>
-  `
-})
-
-*/
