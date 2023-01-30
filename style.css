@@ -92,12 +92,16 @@ h1 {
 }
 
 .empty i {
-  margin-right: 35vw;
+  margin-right: 40vw;
 }
 
-#main p {
+#main .empty {
+  align-items: center;
+}
+
+#main .empty p {
   font-size: 18px;
-  margin-left: 5vw;
+  margin-right: 40vw;
 }
 
 #main2 .empty {
