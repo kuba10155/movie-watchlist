@@ -49,7 +49,7 @@ function fetchAgain(data) {
   main.innerHTML = ""
   for (let i=0; i<data.Search.length; i++){
     console.log(data)
-    fetch(`http://www.omdbapi.com/?apikey=1336ac2d&t=${data.Search[i].Title}`)
+    fetch(`https://www.omdbapi.com/?apikey=1336ac2d&t=${data.Search[i].Title}`)
       .then(res => res.json())
       .then(data => {
         render(data)
