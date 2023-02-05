@@ -20,7 +20,7 @@ document.addEventListener('click', function(e) {
 function searchMovie() {
   const title = search.value
   search.textContent = ""
-  fetch(`http://www.omdbapi.com/?apikey=1336ac2d&s=${title}`)
+  fetch(`https://www.omdbapi.com/?apikey=1336ac2d&s=${title}`)
     .then(res => res.json())
     .then(data => {
       if (data.Response == 'False') {
